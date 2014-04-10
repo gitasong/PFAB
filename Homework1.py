@@ -15,10 +15,10 @@ print sideC
 operand1 = 95
 operand2 = 64.5
 
-print operand1 + operand2
-print operand1 - operand2
-print operand1 * operand2
-print operand1 / operand2
-print operand1 % operand2
+print operand1, "+", operand2, "=", operand1 + operand2
+print operand1, "-", operand2, "=", operand1 - operand2
+print operand1, "*", operand2, "=", operand1 * operand2
+print operand1, "/", operand2, "=", operand1 / operand2
+print operand1, "%", operand2, "=", operand1 % operand2
 #Using variables is better than using values in this section, because it enables you to change the values at will and still get correct answers.
 
